@@ -1,6 +1,6 @@
-# Shopware 5.5 on Apache with PHP 7.1 on Debian 9 (stretch)
+# Shopware 5.5 on Apache with PHP 7.2 on Debian 9 (stretch)
 
-This image provides Shopware 5.5 in an Apache, PHP 7.1 Debian 9 environment.
+This image provides Shopware 5.5 in an Apache, PHP 7.2 Debian 9 environment.
 
 ## Usage
 
@@ -12,7 +12,7 @@ UID=999
 PORT=80
 WEB_ROOT="/var/www/"
 
-docker run -u ${UID}:0 -p ${PORT}:8080 -v ${WEB_ROOT}:/var/www/ 1and1internet/debian-9-apache-php-7.1-shopware-5.5
+docker run -u ${UID}:0 -p ${PORT}:8080 -v ${WEB_ROOT}:/var/www/ 1and1internet/debian-9-apache-php-7.2-shopware-5.5
 ```
 
 ## Building and testing
